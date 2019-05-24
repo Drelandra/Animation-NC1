@@ -59,7 +59,7 @@ class ViewController: UIViewController {
     }
     
     @objc func bulatSudahDitekan(_ sender: UITapGestureRecognizer) {
-        UIView.animate(withDuration: 1, animations: ({
+        UIView.animate(withDuration: 0.5, animations: ({
             self.moveRandom(self.bulatFrame)
             self.colorRandom(self.bulatFrame)
             self.gravityAction()
@@ -84,7 +84,7 @@ class ViewController: UIViewController {
     
     func moveRandom(_ view: UIView) {
         let itemXPosition = CGFloat.random(in: 10...400)
-        let itemYPosition = CGFloat.random(in: 0...10)
+        let itemYPosition = CGFloat.random(in: 44...400)
         
         bulatFrame.center.x = itemXPosition
         bulatFrame.center.y = itemYPosition
@@ -97,6 +97,9 @@ class ViewController: UIViewController {
         let colorBlue = CGFloat.random(in: 0.0000000000...1)
             
         bulatFrame.backgroundColor = UIColor.init(displayP3Red: colorRed, green: colorGreen, blue: colorBlue, alpha: 1)
+        
+            
+            
     }
     
 }

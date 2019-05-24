@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8659C755228E9AC60036FE30 /* Animation-NC1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation-NC1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8659C755228E9AC60036FE30 /* Bouncy Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bouncy Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8659C758228E9AC60036FE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8659C75A228E9AC60036FE30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8659C75D228E9AC60036FE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		8659C756228E9AC60036FE30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8659C755228E9AC60036FE30 /* Animation-NC1.app */,
+				8659C755228E9AC60036FE30 /* Bouncy Ball.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8659C754228E9AC60036FE30 /* Animation-NC1 */ = {
+		8659C754228E9AC60036FE30 /* Bouncy Ball */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8659C767228E9AC70036FE30 /* Build configuration list for PBXNativeTarget "Animation-NC1" */;
+			buildConfigurationList = 8659C767228E9AC70036FE30 /* Build configuration list for PBXNativeTarget "Bouncy Ball" */;
 			buildPhases = (
 				8659C751228E9AC60036FE30 /* Sources */,
 				8659C752228E9AC60036FE30 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Animation-NC1";
+			name = "Bouncy Ball";
 			productName = "Animation-NC1";
-			productReference = 8659C755228E9AC60036FE30 /* Animation-NC1.app */;
+			productReference = 8659C755228E9AC60036FE30 /* Bouncy Ball.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8659C750228E9AC60036FE30 /* Build configuration list for PBXProject "Animation-NC1" */;
+			buildConfigurationList = 8659C750228E9AC60036FE30 /* Build configuration list for PBXProject "Bouncy Ball" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8659C754228E9AC60036FE30 /* Animation-NC1 */,
+				8659C754228E9AC60036FE30 /* Bouncy Ball */,
 			);
 		};
 /* End PBXProject section */
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8659C750228E9AC60036FE30 /* Build configuration list for PBXProject "Animation-NC1" */ = {
+		8659C750228E9AC60036FE30 /* Build configuration list for PBXProject "Bouncy Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8659C765228E9AC70036FE30 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8659C767228E9AC70036FE30 /* Build configuration list for PBXNativeTarget "Animation-NC1" */ = {
+		8659C767228E9AC70036FE30 /* Build configuration list for PBXNativeTarget "Bouncy Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8659C768228E9AC70036FE30 /* Debug */,
